@@ -1,0 +1,3 @@
+/home/dallas0/systemc_dev/svm/build/CMakeFiles/uvm_lite_sim.dir
+/home/dallas0/systemc_dev/svm/build/CMakeFiles/edit_cache.dir
+/home/dallas0/systemc_dev/svm/build/CMakeFiles/rebuild_cache.dir

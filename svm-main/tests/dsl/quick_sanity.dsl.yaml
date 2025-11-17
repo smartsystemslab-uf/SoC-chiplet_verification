@@ -1,0 +1,24 @@
+# tests/dsl/quick_sanity.dsl.yaml
+meta:
+  name: "Quick Sanity"
+  seed: 42
+  duration_us: 100
+
+ips:
+  uart0:
+    send: ["hello", "world!"]
+    baud: 115200
+    parity: none
+  spi0:
+    mode: 0
+    transfers:
+      - tx: [0x9F]
+      - tx: [0xAB, 0xCD, 0xEF]
+  dma0:
+    bursts:
+      - len: 1024
+        src: 0x80000000
+        dst: 0x80001000
+  timer0:
+    start: true
+    period_us: 5

@@ -1,0 +1,10 @@
+# tests/dsl/dma_burst_mix.dsl.yaml
+meta: { name: "DMA Burst Mix", seed: 777 }
+ips:
+  dma0:
+    bursts:
+      - { len: 256, src: 0x90000000, dst: 0x90000400 }
+      - { len: 4096, src: 0x90010000, dst: 0x90020000 }
+  uart0: { send: ["sanity"] }
+  spi0: { mode: 3, transfers: [{tx:[1,2,3,4]}] }
+  timer0: { start: true, period_us: 10 }

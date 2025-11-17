@@ -1,0 +1,10 @@
+{
+  "ip": "timer0",
+  "type": "timer",
+  "vectors": [
+    {
+      "op": "start",
+      "period_us": 5
+    }
+  ]
+}

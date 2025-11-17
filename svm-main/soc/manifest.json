@@ -1,0 +1,9 @@
+{
+  "soc_name": "soc_top",
+  "ips": [
+    {"name": "uart0",  "type": "uart"},
+    {"name": "spi0",   "type": "spi"},
+    {"name": "dma0",   "type": "axi_dma"},
+    {"name": "timer0", "type": "timer"}
+  ]
+}

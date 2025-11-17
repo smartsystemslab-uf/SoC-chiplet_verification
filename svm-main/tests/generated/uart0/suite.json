@@ -1,0 +1,31 @@
+{
+  "ip": "uart0",
+  "type": "uart",
+  "vectors": [
+    {
+      "op": "tx",
+      "baud": 115200,
+      "parity": "none",
+      "payload": [
+        104,
+        101,
+        108,
+        108,
+        111
+      ]
+    },
+    {
+      "op": "tx",
+      "baud": 115200,
+      "parity": "none",
+      "payload": [
+        119,
+        111,
+        114,
+        108,
+        100,
+        33
+      ]
+    }
+  ]
+}
