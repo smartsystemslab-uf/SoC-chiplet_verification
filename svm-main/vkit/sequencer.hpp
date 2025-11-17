@@ -1,5 +1,8 @@
 // vkit/sequencer.hpp
 #pragma once
+
+#include <fstream>
+#include <string>
 #include "agent.hpp"
 #include "utils/json.hpp"
 #include <map>

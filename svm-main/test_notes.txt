@@ -1,4 +1,6 @@
-SSL UF 
+Smart Systems Lab, @ ECE UF.
+SystemC-based SoC/chiplet Verification System
+Version: svm1.0 (SystemC Verifcation Methodology) 
 Peter Mbua
 
 Description: Provide commands to run the design 

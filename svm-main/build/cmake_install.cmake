@@ -1,4 +1,4 @@
-# Install script for directory: /home/dallas0/systemc_dev/svm
+# Install script for directory: /home/esenet/git/SoC-chiplet_verification/svm-main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dallas0/systemc_dev/svm/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/esenet/git/SoC-chiplet_verification/svm-main/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
